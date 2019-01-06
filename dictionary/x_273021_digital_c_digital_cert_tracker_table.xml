@@ -1,3 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Digital Cert Tracker Table" max_length="40" name="x_273021_digital_c_digital_cert_tracker_table" type="collection"/>
+    <element label="Digital Cert Tracker Table" max_length="40" name="x_273021_digital_c_digital_cert_tracker_table" type="collection">
+        <element label="Certificate CSR" max_length="40" name="certificate_csr" type="string"/>
+        <element label="Certificate Encryption" max_length="40" name="certificate_encryption" type="string"/>
+        <element label="Certificate Expiry" max_length="40" name="certificate_expiry" type="glide_date"/>
+        <element label="Certificate Issuer" max_length="60" name="certificate_issuer" type="string"/>
+        <element label="Certificate Key" max_length="40" name="certificate_key" type="string"/>
+        <element label="Certificate Name" max_length="150" name="certificate_name" type="string"/>
+        <element label="Certificate Owner" max_length="32" name="certificate_owner" reference="imp_user" type="reference"/>
+        <element label="Certificate Type/Category" max_length="40" name="certificate_type_category" type="string"/>
+        <element label="Date to retire" max_length="40" name="date_to_retire" type="glide_date"/>
+        <element label="Mute Notifications to Retire" max_length="40" name="mute_notifications_to_retire" type="boolean"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element label="Owning Group" max_length="32" name="owning_group" reference="cmdb_ci_group" type="reference"/>
+        <index name="index">
+            <element name="owning_group"/>
+        </index>
+        <index name="index2">
+            <element name="certificate_owner"/>
+        </index>
+    </element>
 </database>

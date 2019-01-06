@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="certificate_expiry" label="Certificate Expiry" language="en" table="x_273021_digital_c_digital_cert_tracker_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>certificate_expiry</element>
+            <help/>
+            <hint/>
+            <label>Certificate Expiry</label>
+            <language>en</language>
+            <name>x_273021_digital_c_digital_cert_tracker_table</name>
+            <plural>Certificate Expiries</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-06 08:32:53</sys_created_on>
+            <sys_id>cfda9786db3223001063a455ca961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Certificate Expiry</sys_name>
+            <sys_package display_value="Digital Cert Tracker" source="x_273021_digital_c">6b599f06db3223001063a455ca961969</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Digital Cert Tracker">6b599f06db3223001063a455ca961969</sys_scope>
+            <sys_update_name>sys_documentation_x_273021_digital_c_digital_cert_tracker_table_certificate_expiry_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-06 08:32:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
