@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Issuer" max_length="40" name="x_273021_digital_c_issuer" type="collection">
+        <element label="Issuer Common Name (CN)" max_length="150" name="issuer" type="string"/>
+        <element display="true" label="Issuer Organization (O)" max_length="150" name="issuer_organization_o" type="string"/>
+    </element>
+</database>

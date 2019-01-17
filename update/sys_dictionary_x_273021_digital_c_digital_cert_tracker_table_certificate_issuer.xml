@@ -32,20 +32,22 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>60</max_length>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>150</max_length>
         <name>x_273021_digital_c_digital_cert_tracker_table</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_273021_digital_c_issuer">x_273021_digital_c_issuer</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_key>issuer_organization_o</reference_key>
+        <reference_qual>issuer_organization_oSTARTSWITH^EQ</reference_qual>
+        <reference_qual_condition table="x_273021_digital_c_issuer">issuer_organization_oSTARTSWITH^EQ<item endquery="false" field="issuer_organization_o" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -54,14 +56,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-06 08:32:52</sys_created_on>
         <sys_id>688a9386db3223001063a455ca961924</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Certificate Issuer</sys_name>
         <sys_package display_value="Digital Cert Tracker" source="x_273021_digital_c">6b599f06db3223001063a455ca961969</sys_package>
         <sys_policy/>
         <sys_scope display_value="Digital Cert Tracker">6b599f06db3223001063a455ca961969</sys_scope>
         <sys_update_name>sys_dictionary_x_273021_digital_c_digital_cert_tracker_table_certificate_issuer</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-06 08:32:52</sys_updated_on>
+        <sys_updated_on>2019-01-17 09:39:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

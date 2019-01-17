@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="mute_notifications_to_retire" label="Mute Notifications to Renew" language="en" table="x_273021_digital_c_digital_cert_tracker_table">
+    <sys_documentation element="valid_on" label="Valid On" language="en" table="x_273021_digital_c_digital_cert_tracker_table">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>mute_notifications_to_retire</element>
+            <element>valid_on</element>
             <help/>
             <hint/>
-            <label>Mute Notifications to Renew</label>
+            <label>Valid On</label>
             <language>en</language>
             <name>x_273021_digital_c_digital_cert_tracker_table</name>
-            <plural>Mute Notifications to Renews</plural>
+            <plural>Valid Ons</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-06 08:37:54</sys_created_on>
-            <sys_id>6c0cd3c6db3223001063a455ca961972</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Mute Notifications to Renew</sys_name>
+            <sys_created_on>2019-01-17 09:52:56</sys_created_on>
+            <sys_id>b6a694b5dbc323001063a455ca9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Valid On</sys_name>
             <sys_package display_value="Digital Cert Tracker" source="x_273021_digital_c">6b599f06db3223001063a455ca961969</sys_package>
             <sys_policy/>
             <sys_scope display_value="Digital Cert Tracker">6b599f06db3223001063a455ca961969</sys_scope>
-            <sys_update_name>sys_documentation_x_273021_digital_c_digital_cert_tracker_table_mute_notifications_to_retire_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_273021_digital_c_digital_cert_tracker_table_valid_on_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-17 09:42:36</sys_updated_on>
+            <sys_updated_on>2019-01-17 09:52:56</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -2,21 +2,27 @@
     <element label="Digital Cert Tracker Table" max_length="40" name="x_273021_digital_c_digital_cert_tracker_table" type="collection">
         <element label="Certificate CSR" max_length="40" name="certificate_csr" type="string"/>
         <element label="Certificate Encryption" max_length="40" name="certificate_encryption" type="string"/>
-        <element label="Certificate Expiry" max_length="40" name="certificate_expiry" type="glide_date"/>
-        <element label="Certificate Issuer" max_length="60" name="certificate_issuer" type="string"/>
+        <element label="Certificate Expiry" mandatory="true" max_length="40" name="certificate_expiry" type="glide_date"/>
+        <element label="Certificate Issuer" mandatory="true" max_length="150" name="certificate_issuer" reference="x_273021_digital_c_issuer" reference_key="issuer_organization_o" reference_qual="issuer_organization_oSTARTSWITH^EQ" reference_qual_condition="issuer_organization_oSTARTSWITH^EQ" type="reference"/>
         <element label="Certificate Key" max_length="40" name="certificate_key" type="string"/>
-        <element label="Certificate Name" max_length="150" name="certificate_name" type="string"/>
-        <element label="Certificate Owner" max_length="32" name="certificate_owner" reference="imp_user" type="reference"/>
+        <element label="Certificate Name" mandatory="true" max_length="150" name="certificate_name" type="string"/>
+        <element label="Certificate Owner" mandatory="true" max_length="32" name="certificate_owner" reference="sys_user" type="reference"/>
         <element label="Certificate Type/Category" max_length="40" name="certificate_type_category" type="string"/>
         <element label="Date to retire" max_length="40" name="date_to_retire" type="glide_date"/>
-        <element label="Mute Notifications to Retire" max_length="40" name="mute_notifications_to_retire" type="boolean"/>
+        <element label="Mute Notifications to Renew" max_length="40" name="mute_notifications_to_retire" type="boolean"/>
         <element label="Notes" max_length="1000" name="notes" type="string"/>
-        <element label="Owning Group" max_length="32" name="owning_group" reference="cmdb_ci_group" type="reference"/>
+        <element label="Owning Group" max_length="32" name="owning_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Certificate Install path" max_length="250" name="u_installpath" type="string"/>
+        <element label="Retire Approver" max_length="32" name="u_retire_approver" reference="sys_user" type="reference"/>
+        <element display="true" label="Valid On" mandatory="true" max_length="40" name="valid_on" type="glide_date_time"/>
         <index name="index">
             <element name="owning_group"/>
         </index>
         <index name="index2">
             <element name="certificate_owner"/>
+        </index>
+        <index name="index3">
+            <element name="u_retire_approver"/>
         </index>
     </element>
 </database>
