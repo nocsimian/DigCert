@@ -4,13 +4,13 @@
             <element>sys_created_on</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-17 09:46:00</sys_created_on>
-            <sys_id>5d159475dbc323001063a455ca961945</sys_id>
+            <sys_created_on>2019-01-20 09:57:45</sys_created_on>
+            <sys_id>a684fb2adb0323001063a455ca961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audit Log" display_value="Audit Log" name="x_273021_digital_c_digital_cert_tracker_table" sys_domain="global" view="Default view">ee6d1b0adb3223001063a455ca9619cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-17 09:46:00</sys_updated_on>
+            <sys_updated_on>2019-01-20 09:57:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,55 @@
             <element>sys_created_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-17 09:46:00</sys_created_on>
-            <sys_id>dd159475dbc323001063a455ca961945</sys_id>
+            <sys_created_on>2019-01-20 09:57:45</sys_created_on>
+            <sys_id>6e84fb2adb0323001063a455ca961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audit Log" display_value="Audit Log" name="x_273021_digital_c_digital_cert_tracker_table" sys_domain="global" view="Default view">ee6d1b0adb3223001063a455ca9619cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-17 09:46:00</sys_updated_on>
+            <sys_updated_on>2019-01-20 09:57:45</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-17 09:46:00</sys_created_on>
-            <sys_id>51159475dbc323001063a455ca961946</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Audit Log" display_value="Audit Log" name="x_273021_digital_c_digital_cert_tracker_table" sys_domain="global" view="Default view">ee6d1b0adb3223001063a455ca9619cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-17 09:46:00</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_on</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-17 09:46:00</sys_created_on>
-            <sys_id>d1159475dbc323001063a455ca961946</sys_id>
+            <sys_created_on>2019-01-20 09:57:45</sys_created_on>
+            <sys_id>ee84fb2adb0323001063a455ca961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audit Log" display_value="Audit Log" name="x_273021_digital_c_digital_cert_tracker_table" sys_domain="global" view="Default view">ee6d1b0adb3223001063a455ca9619cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-17 09:46:00</sys_updated_on>
+            <sys_updated_on>2019-01-20 09:57:45</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-20 09:57:45</sys_created_on>
+            <sys_id>6284fb2adb0323001063a455ca961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities Digital Tracker">21a3ffe6db0323001063a455ca961956</sys_ui_formatter>
+            <sys_ui_section caption="Audit Log" display_value="Audit Log" name="x_273021_digital_c_digital_cert_tracker_table" sys_domain="global" view="Default view">ee6d1b0adb3223001063a455ca9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-20 09:57:45</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_by</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-17 09:46:00</sys_created_on>
-            <sys_id>55159475dbc323001063a455ca961946</sys_id>
+            <sys_created_on>2019-01-20 09:57:45</sys_created_on>
+            <sys_id>6a84fb2adb0323001063a455ca961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audit Log" display_value="Audit Log" name="x_273021_digital_c_digital_cert_tracker_table" sys_domain="global" view="Default view">ee6d1b0adb3223001063a455ca9619cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-17 09:46:00</sys_updated_on>
+            <sys_updated_on>2019-01-20 09:57:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

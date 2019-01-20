@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Digital Cert Tracker Table" max_length="40" name="x_273021_digital_c_digital_cert_tracker_table" type="collection">
+    <element audit="true" label="Digital Cert Tracker Table" max_length="40" name="x_273021_digital_c_digital_cert_tracker_table" type="collection">
+        <element label="Alternative Name" max_length="150" name="alternative_name" type="simple_name_values"/>
         <element label="Certificate CSR" max_length="40" name="certificate_csr" type="string"/>
         <element label="Certificate Encryption" max_length="40" name="certificate_encryption" type="string"/>
         <element label="Certificate Expiry" mandatory="true" max_length="40" name="certificate_expiry" type="glide_date"/>
         <element label="Certificate Issuer" mandatory="true" max_length="150" name="certificate_issuer" reference="x_273021_digital_c_issuer" reference_key="issuer_organization_o" reference_qual="issuer_organization_oSTARTSWITH^EQ" reference_qual_condition="issuer_organization_oSTARTSWITH^EQ" type="reference"/>
-        <element label="Certificate Key" max_length="40" name="certificate_key" type="string"/>
+        <element label="Certificate Key" max_length="2200" name="certificate_key" type="string"/>
         <element label="Certificate Name" mandatory="true" max_length="150" name="certificate_name" type="string"/>
         <element label="Certificate Owner" mandatory="true" max_length="32" name="certificate_owner" reference="sys_user" type="reference"/>
-        <element label="Certificate Type/Category" max_length="40" name="certificate_type_category" type="string"/>
+        <element choice="1" label="Certificate Type/Category" max_length="40" name="certificate_type_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Apache" sequence="0" value="apache"/>
+                <element inactive_on_update="false" label="Load Balancer" sequence="1" value="load balancer"/>
+                <element inactive_on_update="false" label="Oracle Wallet" sequence="2" value="oracle wallet"/>
+                <element inactive_on_update="false" label="IIS Web Server" sequence="3" value="iis web server"/>
+            </choice>
+        </element>
         <element label="Date to retire" max_length="40" name="date_to_retire" type="glide_date"/>
         <element label="Mute Notifications to Renew" max_length="40" name="mute_notifications_to_retire" type="boolean"/>
         <element label="Notes" max_length="1000" name="notes" type="string"/>
         <element label="Owning Group" max_length="32" name="owning_group" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Certificate Install path" max_length="250" name="u_installpath" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_1" type="journal"/>
         <element label="Retire Approver" max_length="32" name="u_retire_approver" reference="sys_user" type="reference"/>
         <element display="true" label="Valid On" mandatory="true" max_length="40" name="valid_on" type="glide_date_time"/>
         <index name="index">

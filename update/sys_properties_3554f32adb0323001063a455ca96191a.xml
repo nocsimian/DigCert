@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Digital Cert Tracker Table activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_273021_digital_c_digital_cert_tracker_table_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-20 09:56:53</sys_created_on>
+        <sys_id>3554f32adb0323001063a455ca96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_273021_digital_c_digital_cert_tracker_table_activity.fields</sys_name>
+        <sys_package display_value="Digital Cert Tracker" source="x_273021_digital_c">6b599f06db3223001063a455ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Digital Cert Tracker">6b599f06db3223001063a455ca961969</sys_scope>
+        <sys_update_name>sys_properties_3554f32adb0323001063a455ca96191a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-20 09:56:53</sys_updated_on>
+        <type>string</type>
+        <value>certificate_name,alternative_name,certificate_expiry,certificate_encryption,certificate_issuer,certificate_owner,certificate_key,certificate_type_category,date_to_retire,mute_notifications_to_retire,u_installpath,notes,owning_group,sys_updated_on,sys_updated_by,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3554f32adb0323001063a455ca96191a"/>
+</record_update>
